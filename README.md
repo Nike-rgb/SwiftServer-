@@ -21,11 +21,11 @@ The site will be running on https nevertheless.**
 
 ##### Assuming I have the following project structure:
 
-**public**
+:file_folder: **public**
 
-- images
+- :file_folder: images
   - logo.png
-- css
+- :file_folder: css
   - main.css
 
 **home.html**
