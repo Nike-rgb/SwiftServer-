@@ -34,7 +34,7 @@ No HTML file found to serve.</h1>
 Make sure you have 'index.html' file in the root directory of your project.
 Or include the 'fileName' option if the html file has a different name.
 </p>
-<a target="_blank" href="/Swift_serverREADME.html">
+<a target="_blank" href="/swift_serverREADME.html">
 <div style="text-align:center;margin-top:50px;">
 Read the complete guide on using SwiftServer.
 </div>

@@ -1,0 +1,27 @@
+* {
+  line-height: 30px;
+}
+
+h1 {
+  color: #d028d0;
+}
+
+h2 {
+  color: #d69a2c;
+}
+
+code {
+  min-width: 50px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  border: 0;
+  line-height: 20px;
+  padding: 4px;
+  background-color: #ca9b4787;
+  color: #5b0bf9;
+}
+
+strong {
+  color: blue;
+}
