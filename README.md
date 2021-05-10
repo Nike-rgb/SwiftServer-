@@ -14,8 +14,11 @@ Minimalistic development server for all your frontend needs.
 ## Complete options:
 
 **PORT** : _Number_ (optional) = The port which the server should listen to. Defaults to `3000`
+
 **fileName** : _String_ (optional) = Name of the `.html` file you want ot serve. Defaults to `index.html`
+
 **public** : _String_ (optional) = Name of the directory in which your static assets are kept. Defaults to the root directory of your project.
+
 **secure** : _Boolean_ (optional) = Set to `true` if you want to enable HTTPS. Defaults to `false`.
 
 **NOTE : Even though secure is true, your browser will still show insecure which is fine.
