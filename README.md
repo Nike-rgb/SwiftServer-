@@ -3,7 +3,7 @@
 Minimalistic development server for all your frontend needs.
 
 
-                                                           npm i swiftserver
+                                                        npm i swiftserver
                                                            
 
 - create `server.js` file in your project root directory.
@@ -43,11 +43,13 @@ To serve `home.html` using swiftserver(with https):
 
                       //server.js
                        const options = {
-                        PORT : 4000,
-                        fileName : "home.html",
-                        public : "public",
-                        secure : true
+                          PORT : 4000,
+                          fileName : "home.html",
+                          public : "public",
+                          secure : true
                         }
+                        
+                        require('swiftserver')(options);
 
 ## Works with ReactJs too
 
