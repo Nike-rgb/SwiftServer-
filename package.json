@@ -1,0 +1,28 @@
+{
+  "name": "swiftserver",
+  "version": "1.0.0",
+  "description": "Simple development server for all your frontend needs.",
+  "main": "server.js",
+  "author": "Nikesh Kazi Lepcha <nikeshlepcha7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "mkcert": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nike-rgb/SwiftServer-.git"
+  },
+  "keywords": [
+    "development",
+    "server",
+    "https",
+    "secure server",
+    "localhost"
+  ],
+  "bugs": {
+    "url": "https://github.com/Nike-rgb/SwiftServer-/issues"
+  },
+  "homepage": "https://github.com/Nike-rgb/SwiftServer-#readme"
+}
