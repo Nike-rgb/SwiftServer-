@@ -67,7 +67,7 @@ function logInfo(options) {
   const { PORT, fileName, public, secure } = options;
   console.log(
     `SwiftServer serving `.info +
-      `${fileName}`.highlight +
+      `${fileName ? fileName : "index.html"}`.highlight +
       ` on port ${PORT} \n
   You have set the following settings:`.info
   );
@@ -113,10 +113,17 @@ async function swiftServer(options) {
   logInfo(options);
   serveStatic(directory, public);
   app.get("/*", (req, res) => {
-    fs.access(path.join(directory, fileName), (err) => {
-      if (err) res.send(no_file_found_markup);
-      else res.sendFile(path.join(directory, fileName));
-    });
+    if (fileName) {
+      fs.access(path.join(directory, fileName), (err) => {
+        if (err) res.send(no_file_found_markup);
+        else res.sendFile(path.join(directory, fileName));
+      });
+    } else {
+      fs.access(path.join(directory, "index.html"), (err) => {
+        if (err) res.send(no_file_found_markup);
+        else res.sendFile(path.join(directory, "index.html"));
+      });
+    }
   });
 }
 
