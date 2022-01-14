@@ -1,6 +1,6 @@
 {
   "name": "swiftserver",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple development server for all your frontend needs.",
   "main": "server.js",
   "author": "Nikesh Kazi Lepcha <nikeshlepcha7@gmail.com>",
